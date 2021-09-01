@@ -5,27 +5,27 @@
     <link>https://ithihasmadala.github.io/projects/</link>
     <description>Recent content in Projects on Ithihas Madala</description>
     <image>
-      <url>https://ithihasmadala.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://ithihasmadala.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://ithihasmadala.github.io/ithihas.jpeg</url>
+      <link>https://ithihasmadala.github.io/ithihas.jpeg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 01 Sep 2021 16:16:25 +0530</lastBuildDate><atom:link href="https://ithihasmadala.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Sep 2021 19:19:04 +0530</lastBuildDate><atom:link href="https://ithihasmadala.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gene Signal Processing</title>
       <link>https://ithihasmadala.github.io/projects/gene-signal-processing/</link>
-      <pubDate>Wed, 01 Sep 2021 16:16:25 +0530</pubDate>
+      <pubDate>Wed, 01 Sep 2021 19:19:04 +0530</pubDate>
       
       <guid>https://ithihasmadala.github.io/projects/gene-signal-processing/</guid>
-      <description>Desc Text.</description>
+      <description>GSP involves the construction of Fourier Series/Spectrograms from DNA sequences. Constructing these spectrograms is a challenge, as there are many ways to go about it, and we would like to explore this area further.  Further, we would be using these spectrograms for the classification of genes using Deep Learning algorithms like CNNs and transformers.</description>
     </item>
     
     <item>
-      <title>Sperm Video Processing</title>
+      <title>Sperm Video Analysis</title>
       <link>https://ithihasmadala.github.io/projects/sperm-video-processing/</link>
-      <pubDate>Wed, 01 Sep 2021 16:16:25 +0530</pubDate>
+      <pubDate>Wed, 01 Sep 2021 19:19:04 +0530</pubDate>
       
       <guid>https://ithihasmadala.github.io/projects/sperm-video-processing/</guid>
-      <description>Desc Text.</description>
+      <description>In the study, they have worked with 81 sperm videos (Visem dataset) and classified the samples into progressive, non-progressive, and immotile spermatozoa.</description>
     </item>
     
   </channel>
