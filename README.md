@@ -5,33 +5,34 @@ You can clone this repo and use it as a template for your own personal website.
 
 ## Technologies Used
 
-- [Next.js](https://nextjs.org/) - React framework for production
-- [TypeScript](https://www.typescriptlang.org/) - Typed superset of JavaScript
-- [Ant Design](https://ant.design/) - UI component library
-- [Framer Motion](https://www.framer.com/motion/) - Animation library for React
-- [Three.js](https://threejs.org/) - 3D graphics library for JavaScript
-- [Konva](https://konvajs.org/) - HTML5 Canvas JavaScript framework
-- [next-seo](https://github.com/garmeeh/next-seo) - SEO management for Next.js
+-   [Next.js](https://nextjs.org/) - React framework for production
+-   [TypeScript](https://www.typescriptlang.org/) - Typed superset of JavaScript
+-   [Ant Design](https://ant.design/) - UI component library
+-   [Framer Motion](https://www.framer.com/motion/) - Animation library for React
+-   [Three.js](https://threejs.org/) - 3D graphics library for JavaScript
+-   [Konva](https://konvajs.org/) - HTML5 Canvas JavaScript framework
+-   [next-seo](https://github.com/garmeeh/next-seo) - SEO management for Next.js
 
 ## Prerequisites
 
 Before you begin, ensure you have the following installed on your local machine:
 
-- [Node.js](https://nodejs.org/) (v14.0.0 or later)
-- [pnpm](https://pnpm.io/) (v6.0.0 or later)
+-   [Node.js](https://nodejs.org/) (v14.0.0 or later)
+-   [pnpm](https://pnpm.io/) (v6.0.0 or later)
 
 ## Installation
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
-   cd your-repo-name
-   ```
+
+    ```bash
+    git clone https://github.com/yourusername/your-repo-name.git
+    cd your-repo-name
+    ```
 
 2. Install the dependencies:
-   ```bash
-   pnpm install
-   ```
+    ```bash
+    pnpm install
+    ```
 
 ## Getting Started
 
@@ -47,18 +48,18 @@ Open [http://localhost:420](http://localhost:420) with your browser to see the r
 
 In the project directory, you can run:
 
-- `pnpm dev` - Runs the app in development mode on port 420
-- `pnpm build` - Builds the app for production
-- `pnpm start` - Runs the built app in production mode on port 420
-- `pnpm lint` - Runs the linter to check for code style issues
+-   `pnpm dev` - Runs the app in development mode on port 420
+-   `pnpm build` - Builds the app for production
+-   `pnpm start` - Runs the built app in production mode on port 420
+-   `pnpm lint` - Runs the linter to check for code style issues
 
 ## Project Structure
 
-- `app/` - Contains the main application code (Next.js App Router)
-  - `components/` - Reusable React components
-  - `layout.tsx` - Root layout component
-  - `page.tsx` - Home page component
-- `public/` - Static assets
+-   `app/` - Contains the main application code (Next.js App Router)
+    -   `components/` - Reusable React components
+    -   `layout.tsx` - Root layout component
+    -   `page.tsx` - Home page component
+-   `public/` - Static assets
 
 ## Deployment to GitHub Pages
 
@@ -89,13 +90,13 @@ This project is open source and available under the [MIT License](LICENSE).
 
 To learn more about the technologies used in this project, check out the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs)
-- [TypeScript Documentation](https://www.typescriptlang.org/docs/)
-- [Ant Design Documentation](https://ant.design/docs/react/introduce)
-- [Framer Motion Documentation](https://www.framer.com/motion/)
-- [Three.js Documentation](https://threejs.org/docs/)
-- [Konva Documentation](https://konvajs.org/docs/)
-- [next-seo Documentation](https://github.com/garmeeh/next-seo#readme)
+-   [Next.js Documentation](https://nextjs.org/docs)
+-   [TypeScript Documentation](https://www.typescriptlang.org/docs/)
+-   [Ant Design Documentation](https://ant.design/docs/react/introduce)
+-   [Framer Motion Documentation](https://www.framer.com/motion/)
+-   [Three.js Documentation](https://threejs.org/docs/)
+-   [Konva Documentation](https://konvajs.org/docs/)
+-   [next-seo Documentation](https://github.com/garmeeh/next-seo#readme)
 
 ## Contact
 

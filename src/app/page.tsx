@@ -1,95 +1,53 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+'use client'
+
+import {useEffect, useState} from 'react'
+import {Typography, ConfigProvider, theme} from 'antd'
+import {motion} from 'framer-motion'
+import styles from './page.module.css'
+
+const {Title, Paragraph} = Typography
+const {darkAlgorithm} = theme
 
 export default function Home() {
-  return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol>
-          <li>
-            Get started by editing <code>src/app/page.tsx</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    const [mounted, setMounted] = useState(false)
 
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.secondary}
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className={styles.footer}>
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
+    useEffect(() => {
+        setMounted(true)
+    }, [])
+
+    if (!mounted) return null
+
+    return (
+        <ConfigProvider
+            theme={{
+                algorithm: darkAlgorithm
+            }}
         >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
-  );
+            <div className={styles.page}>
+                <motion.main
+                    className={styles.main}
+                    initial={{opacity: 0}}
+                    animate={{opacity: 1}}
+                    transition={{duration: 0.5}}
+                >
+                    <motion.div
+                        initial={{y: -20, opacity: 0}}
+                        animate={{y: 0, opacity: 1}}
+                        transition={{delay: 0.2, duration: 0.5}}
+                    >
+                        <Title level={1}>Ithihas Madala</Title>
+                    </motion.div>
+                    <motion.div
+                        initial={{y: 20, opacity: 0}}
+                        animate={{y: 0, opacity: 1}}
+                        transition={{delay: 0.4, duration: 0.5}}
+                    >
+                        <Paragraph>
+                            This site is currently under development. Check back soon for updates!
+                        </Paragraph>
+                    </motion.div>
+                </motion.main>
+            </div>
+        </ConfigProvider>
+    )
 }
