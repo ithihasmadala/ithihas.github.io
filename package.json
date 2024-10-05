@@ -4,13 +4,10 @@
     "private": true,
     "scripts": {
         "dev": "next dev -p 420",
-        "build": "next build && next export",
+        "build": "next build",
         "start": "next start -p 420",
         "lint": "next lint",
-        "deploy": "touch out/.nojekyll && gh-pages -d out -t true",
-        "prettier": "prettier --write .",
-        "prettier:check": "prettier --check .",
-        "lint:fix": "next lint --fix"
+        "deploy": "touch out/.nojekyll && gh-pages -d out -t true"
     },
     "dependencies": {
         "@react-three/drei": "^9.114.0",
