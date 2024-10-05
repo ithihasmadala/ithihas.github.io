@@ -7,11 +7,20 @@ You can clone this repo and use it as a template for your own personal website.
 
 -   [Next.js](https://nextjs.org/) - React framework for production
 -   [TypeScript](https://www.typescriptlang.org/) - Typed superset of JavaScript
+-   [React](https://reactjs.org/) - JavaScript library for building user interfaces
 -   [Ant Design](https://ant.design/) - UI component library
 -   [Framer Motion](https://www.framer.com/motion/) - Animation library for React
 -   [Three.js](https://threejs.org/) - 3D graphics library for JavaScript
+-   [@react-three/fiber](https://github.com/pmndrs/react-three-fiber) - React renderer for Three.js
+-   [@react-three/drei](https://github.com/pmndrs/drei) - Useful helpers for react-three-fiber
 -   [Konva](https://konvajs.org/) - HTML5 Canvas JavaScript framework
+-   [React Konva](https://konvajs.org/docs/react/) - React binding for Konva
 -   [next-seo](https://github.com/garmeeh/next-seo) - SEO management for Next.js
+-   [ESLint](https://eslint.org/) - Linting utility for JavaScript and TypeScript
+-   [Prettier](https://prettier.io/) - Code formatter
+-   [pnpm](https://pnpm.io/) - Fast, disk space efficient package manager
+-   [GitHub Actions](https://github.com/features/actions) - CI/CD platform
+-   [GitHub Pages](https://pages.github.com/) - Hosting platform
 
 ## Prerequisites
 
@@ -25,8 +34,8 @@ Before you begin, ensure you have the following installed on your local machine:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/your-repo-name.git
-    cd your-repo-name
+    git clone https://github.com/ithihasmadala/ithihasmadala.github.io.git
+    cd ithihasmadala.github.io
     ```
 
 2. Install the dependencies:
@@ -101,3 +110,4 @@ To learn more about the technologies used in this project, check out the followi
 ## Contact
 
 If you have any questions or feedback, please reach out to [helloithihas@gmail.com](mailto:helloithihas@gmail.com).
+
