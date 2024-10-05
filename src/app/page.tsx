@@ -35,7 +35,7 @@ export default function Home() {
                         animate={{y: 0, opacity: 1}}
                         transition={{delay: 0.2, duration: 0.5}}
                     >
-                        <Title level={1}>Ithihas Madala</Title>
+                        <Title level={1}>Ithihas Madala v2</Title>
                     </motion.div>
                     <motion.div
                         initial={{y: 20, opacity: 0}}
